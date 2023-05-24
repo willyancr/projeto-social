@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celular{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.social{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social h1{
+    color: #77ffc0;
+    margin-bottom: 40px;
+}
+.card-social{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.329);
+}
+.icones img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0px 10px 80px rgba(221, 56, 56, 0.342);
+    
+}
